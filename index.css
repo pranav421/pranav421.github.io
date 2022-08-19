@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(65, 71, 106);
+}
+
+.container{
+    display: flex;
+    min-height: max-content;
+    border: 12px solid gray;
+    border-radius: 5px;
+    /* flex-direction: column;
+    justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.Team{
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    padding: 20px;
+    margin: 15px;
+    width: 420px;
+    height: 220px;
+    border: 2px solid rgb(56, 42, 19);
+}
+
+.Team:hover{
+    background-color: rgb(219, 140, 13);
+}

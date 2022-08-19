@@ -1,0 +1,95 @@
+h1{
+    text-align: center;
+}
+.submitDiv{
+    width:100%;
+}
+
+body{
+  background-color: burlywood;
+  display: block;
+}
+
+.samplepage{
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0%;
+  font-family: verdana;
+  font-size: 16px;
+  border: solid 2px #f1f1f1;
+}
+.samplepage .formdata{
+width:40%;
+padding:15px;
+max-width: fit-content;
+
+}
+.display_table {
+ margin-left: auto;
+ margin-right: auto;
+padding:15px;
+max-width: fit-content;
+}
+.display_table table{
+align-content: center;
+
+border:solid 1px #ccc;
+width: 10%;
+}
+.display_table td, 
+.display_table th{
+border-left:solid 1px #ccc;
+border-bottom:solid 1px #ccc;
+padding:10px 5px;
+text-align:left;
+font-size:13px;
+}
+.samplepage .display_table td:first-child, 
+.samplepage .display_table th:first-child{
+border-left:none;
+}
+
+.samplepage .display_table tr{
+border-bottom:solid 1px #ccc;
+}
+.samplepage .display_table tr:last-child td{
+border-bottom:none;
+}
+
+.formdata form{
+width: 100%;
+margin: 0%;
+display:flex;
+flex-wrap:wrap;
+background:#f1f1f1;
+padding:5px;
+}
+.formdata form label{
+width:10%;
+}
+.formdata form input, .formdata label{
+margin:10px 0;
+padding:5px;
+} 
+.formdata form input{
+width:90%;
+padding:7px;
+}
+.formdata th{
+background:#f1f1f1; 
+font-size:14px; 
+font-weight:bold;
+text-align:left;
+}
+.formdata .button{
+width: 70%;
+background:#000;
+padding:5px 10px;
+font-size:20px;
+margin:25px auto;
+display:table;
+color:#fff;
+}

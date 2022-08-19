@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hydrabad Company/current-stage</title>
+  <link rel="stylesheet" href="currentStage.css">
+</head>
+
+<body>
+  <h1>Sample Condition</h1>
+  <div class="samplepage">
+    <div class="formdata">
+
+      <form onsubmit="event.preventDefault();" autocomplete="off">
+
+
+        <div>Fridge No</div>
+        <input type="text" class="fridgeNo" value="" placeholder="fridge id/No">
+
+        <div>Condition</div>
+        <input type="text" class="condition" value="" placeholder="condition">
+
+        <div>Expiry Date</div>
+        <input type="date" class="expiryDate" value="" placeholder="DD/MM/YY">
+
+        <div>Quantity</div>
+        <input type="text" class="quantity" value="" placeholder="Quantity in ml">
+
+        <div class="submitDiv">
+          <input type="submit" value="Submit" class="button">
+
+        </div>
+      </form>
+
+    </div>
+  </div>
+    <div class="display_table">
+      <table class="list" id="employeeList">
+        <thead>
+          <tr>
+            <th>Sr</th>
+            <th>Fridge ID</th>
+            <th>Condition</th>
+            <th>Expiry Date</th>
+            <th>Quantity</th>
+            <th>Edit</th>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+      </table>
+    </div>
+
+
+  <script src="currentStage.js"></script>
+</body>
+
+</html>
